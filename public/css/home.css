@@ -1,13 +1,43 @@
 .header{
-    background-color: #EAC926;;
+    background-color: var(--colorAmarillo);
 }
 
 h2, h3, h4, p{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--tipografiaTitulos);
 }
 
-.burger-menu{
-    color: #1259c3;
+.home__header__div--lupa{
+    margin-left: 5%;
+}
+
+.home__header__div--h3{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header__hamburguer{
+    background-color: var(--colorCeleste);
+    color: var(--colorGrisClaro);
+    border: none;
+    margin: 0 auto;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.main__section--imagen{
+    width: 100%;
 }
 
 .cuerpo-texto{
@@ -28,4 +58,21 @@ h2, h3, h4, p{
 
 .descripciones{
     font-size: 16px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer__section__article{
+    color: var(--colorGrisOscuro);
+}
+
+.footer__section__article--div{
+    margin-top: 25px;
+    color: var(--colorCeleste);
+}
+
+.footer__section__article--pie{
+    color: var(--colorGrisOscuro);
 }
