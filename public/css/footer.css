@@ -1,0 +1,21 @@
+.footer{
+    text-align: center;
+}
+
+.footer__section__article{
+    color: var(--colorGrisOscuro);
+}
+
+.footer__section__article--div{
+    margin-top: 25px;
+    color: var(--colorCeleste);
+}
+
+.footer__section__article--pie{
+    color: var(--colorGrisOscuro);
+}
+
+/* medida para tablet */
+@media (min-width: 361px) {
+
+}
