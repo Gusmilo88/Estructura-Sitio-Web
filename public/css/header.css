@@ -1,5 +1,6 @@
 .header{
     background-color: var(--colorAmarillo);
+    border-bottom: 0;
 }
 
 .home__header--nav{
@@ -38,6 +39,10 @@ a{
     height: 40px;
     font-size: 20px;
     border-radius: 5px;
+}
+
+.home__header__section--banner img{
+    width: 100vw;
 }
 
 
