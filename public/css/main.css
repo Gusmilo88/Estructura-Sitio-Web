@@ -4,24 +4,63 @@ main{
     background-color: var(--colorGrisClaro);
 }
 
+.main__section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__section h2{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    color: var(--colorGrisOscuro);
+}
+
 .main__section__article{
     margin: 10px;
+    margin-top: 25px;
 }
 
 .main__section__article--img{
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .main__section__article--div{
     border-top: 1px solid var(--colorGrisClaro);
-    margin: 15px;
+    padding: 15px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
+.precios{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos{
+    font-size: 0.8rem;
+    color: var(--colorVerde);
+    width: 70%;
+}
+
+
 .main__section__article--div i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
     color: var(--colorVerde);
     border: 1px solid var(--colorVerde);
-    border-radius: 50%;
-    padding: 5px;
 }
 
 .cuerpo-texto{
@@ -30,15 +69,6 @@ main{
 
 .titular{
     font-size: 24px;
-}
-
-.precios{
-    font-size: 18px;
-}
-
-.descuentos{
-    font-size: 16px;
-    color: var(--colorVerde);
 }
 
 .descripciones{
@@ -51,12 +81,18 @@ main{
 
 /* tablet */
 @media (min-width: 361px) {
+
+    .main__section{
+        justify-content: space-between;
+    }
+
     .main__section__article__div--h3{
         display: block;
     }
 
     .main__section__article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
     }
 }
 
@@ -68,5 +104,6 @@ main{
 
     .main__section__article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 22%;
     }
 }
