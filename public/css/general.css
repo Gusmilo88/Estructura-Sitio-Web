@@ -2,8 +2,5 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-h2, h3, h4, p, span{
-    font-family: var(--tipografiaTitulos);
+    font-family: var(--tipografiaTitulos)
 }

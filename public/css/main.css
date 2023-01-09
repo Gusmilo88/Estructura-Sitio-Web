@@ -1,12 +1,13 @@
-main{
-    margin: 0 auto;
-    width: 90%;
-    background-color: var(--colorGrisClaro);
+.home__main__section--banner{
+    width: 100vw;
 }
 
 .main__section{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    background-color: var(--colorGrisClaro);
 }
 
 .main__section h2{

@@ -77,9 +77,9 @@ a{
 
 /* tablet */
 @media (min-width: 361px) {
-
     .header{
         align-items: center;
+        display: flex;
     }
 
     .home__header__imagen{
@@ -101,12 +101,20 @@ a{
     .home__header--nav{
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .home__header__nav--nav li{
+        width: 14%;
+    }
+
+    .home__header__nav--user{
+        width: 14%;
     }
 
     .home__header__nav--nav, .home__header__nav--user{
         display: flex;
-        gap: 10px;
+        gap: 30px;
     }
 }
 
@@ -135,7 +143,15 @@ a{
     .home__header--nav{
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .home__header__nav--nav li{
+        width: 14%;
+    }
+
+    .home__header__nav--user{
+        width: 14%;
     }
 
     .home__header__nav--nav, .home__header__nav--user{
