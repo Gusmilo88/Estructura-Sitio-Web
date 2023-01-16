@@ -82,7 +82,6 @@
 
 /* tablet */
 @media (min-width: 361px) {
-
     .main__section{
         justify-content: space-between;
     }
@@ -97,6 +96,7 @@
     }
 }
 
+/* Media query: */
 /* desktop */
 @media (min-width: 769px) {
     .main__section__article__div--h3{

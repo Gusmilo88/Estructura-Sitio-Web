@@ -1,0 +1,198 @@
+.register__main{
+    background-color: var(--colorGrisClaro);
+    padding: 20px;
+}
+
+.register__main__section__div--box{
+    margin-bottom: 10px;
+}
+
+.register__main__section__div--box input{
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.register__main__section__div--fecha{
+    margin-bottom: 10px;
+}
+
+.register__main__section__div--fecha label{
+    font-weight: bold;
+}
+
+.register__main__section__div--fecha input{
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.register__main__section__div--provincia{
+    margin-bottom: 10px;
+}
+
+.register__main__section__div--provincia label{
+    font-weight: bold;
+}
+
+.register__main__section__div--provincia select{
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.register__main__section__div--domicilio{
+    margin-bottom: 10px;
+}
+
+.register__main__section__div--domicilio input{
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.register__main__section__div--perfilUsuario{
+    margin-bottom: 10px;
+}
+
+.register__main__section__div--perfilUsuario--label{
+    font-weight: bold;
+}
+
+.register__main__section__div--perfilUsuario input{
+    cursor: pointer;
+}
+
+.register__main__section__div--intereses{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.register__main__section__div--intereses--label{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.register__main__section__div--intereses--inputs label{
+    
+}
+
+.register__main__section__div--intereses--inputs--pares{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 10px;
+}
+
+.register__main__section__div--intereses--inputs input{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+.register__main__section__div--foto {
+    font-weight: bold;
+}
+
+.register__main__section__div--password, .register__main__section__div--repeatPassword{
+    
+}
+
+.register__main__section__div--password input{
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.register__main__section__div--repeatPassword input{
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.register__main__section__div--botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.register__main__section__div--botonEnviar, .register__main__section__div--botonBorrar{
+    width: 60%;
+}
+
+.register__main__section__div--botonEnviar input{
+    background-color: var(--colorCeleste);
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.register__main__section__div--botonBorrar input{
+    background-color: var(--colorCeleste);
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.register__main__section__div--login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.register__main__section__div--login a{
+    color: var(--colorCeleste);
+}
+
+
+/* Media query: */
+/* tablet */
+@media (min-width: 361px){
+    .login__main__section__article__form--button a{
+        width: 40%;
+    }
+}
+
+/* desktop */
+@media (min-width: 769px){
+    .login__main__section__article__form--button a{
+        width: 20%;
+    }
+}

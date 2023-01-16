@@ -1,49 +1,63 @@
 .login__main{
     background-color: var(--colorGrisClaro);
-}
-.form__box{
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: center; 
+    padding: 20px;
 }
 
-.form__box input{
+.login__main__section__article__form--box{
+    margin-bottom: 10px; 
+}
+
+.login__main__section__article__form--box input{
     margin-top: 15px;
     padding: 8px;
-    width: 70%;
+    width: 100%;
     border: none;
     height: 40px;
     border-radius: 10px;
 }
 
-.form__div--button{
-    text-align: center;
+.login__main__section__article__form--button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.form__div--button input{
+.login__main__section__article__form--button input{
     background-color: var(--colorCeleste);
     color: white;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 8px;
-    width: 70%;
+    width: 100%;
     border: none;
     height: 40px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
+.login__main__section__article__form--registro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;;
+}
+
+.login__main__section__article__form--registro a{
+    color: var(--colorCeleste);
+}   
+
+/* Media query: */
 /* tablet */
 @media (min-width: 361px){
-    
+    .login__main__section__article__form--button a{
+        width: 30%;
+    }
 }
 
 /* desktop */
 @media (min-width: 769px){
-    .form__box input{
-        width: 40%;
-    }
-
-    .form__div--button input{
-        width: 40%;
+    .login__main__section__article__form--button a{
+        width: 30%;
     }
 }

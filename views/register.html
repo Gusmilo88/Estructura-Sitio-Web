@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        rel="stylesheet" />
+        rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         rel="stylesheet" />
         <script src="https://kit.fontawesome.com/3888ffbbfa.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="images/favicon.svg">
         <title>Mercado Liebre / register</title>
     </head>
 <body>
@@ -48,9 +49,112 @@
             <i class="fa-solid fa-bars"></i>
         </button>
     </header>
-    <main>
-        <h1>register</h1>
+
+    <main class="register__main">
+        <section class="register__main__section">
+            <form action="">
+                <div class="register__main__section__div--box">
+                    <input type="text" placeholder="Nombre y apellido" minlength="2">
+                    <input type="text" placeholder="Nombre de usuario" minlength="2">
+                    <input type="email" placeholder="E-mail" minlength="2">
+                </div>
+                <div class="register__main__section__div--fecha">
+                    <label for="">Fecha de nacimiento</label>
+                    <input type="date" max="2005-12-31">
+                </div>
+                <div class="register__main__section__div--provincia">
+                    <label for="">Provincia</label>
+                    <select name="" id="">
+                        <option value="buenosAires">Buenos Aires</option>
+                        <option value="CABA">Ciudad Autónoma de Buenos Aires</option>
+                        <option value="catamarca">Catamarca</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="Chubut">Chubut</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Corrientes">Corrientes</option>
+                        <option value="Entre Ríos">Entre Ríos</option>
+                        <option value="Formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="La Pampa">La Pampa</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="Neuquén">Neuquén</option>
+                        <option value="Río Negro">Río Negro</option>
+                        <option value="Salta">Salta</option>
+                        <option value="San Juan">San Juan</option>
+                        <option value="San Luis">San Luis</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Santa Fe">Santa Fe</option>
+                        <option value="Santiago del Estero">Santiago del Estero</option>
+                        <option value="tierraFuego">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                        <option value="tucuman">Tucumán</option>
+                    </select>
+                </div>
+                <div class="register__main__section__div--domicilio">
+                    <input type="text" placeholder="Domicilio" minlength="2">
+                </div>
+                <div class="register__main__section__div--perfilUsuario">
+                    <div class="register__main__section__div--perfilUsuario--label">
+                        <label for="">Perfil del usuario:</label>
+                    </div>
+                    <input type="radio" name="perfilUsuario" value="" id="perfilUsuarioCom" checked>
+                    <label for="perfilUsuarioCom">Comprador</label>
+                    <input type="radio" name="perfilUsuario" value="" id="perfilUsuarioVend">
+                    <label for="perfilUsuarioVend">Vendedor</label>
+                </div>
+                <div class="register__main__section__div--intereses">
+                    <div class="register__main__section__div--intereses--label">
+                        <label for="">Intereses:</label>
+                    </div>
+                    <div class="register__main__section__div--intereses--inputs">
+                        <div class="register__main__section__div--intereses--inputs--pares">
+                            <input type="checkbox" name="electro" value="" id="electro">
+                            <label for="electro">Electro</label>
+                        </div>
+                        <div class="register__main__section__div--intereses--inputs--pares">
+                            <input type="checkbox" name="moda" value="" id="moda">
+                            <label for="moda">Moda</label>
+                        </div>
+                        <div class="register__main__section__div--intereses--inputs--pares">
+                            <input type="checkbox" name="hogar" value="" id="hogar">
+                            <label for="hogar">Hogar</label>
+                        </div>
+                        <div class="register__main__section__div--intereses--inputs--pares">
+                            <input type="checkbox" name="jugueteria" value="" id="jugueteria">
+                            <label for="jugueteria">Juguetería</label>
+                        </div>
+                        <div class="register__main__section__div--intereses--inputs--pares">
+                            <input type="checkbox" name="vidaSana" value="" id="vidaSana">
+                            <label for="vidaSana">Vida sana</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="register__main__section__div--foto">
+                    <label for="">Seleccionar imagen de perfil:</label>
+                    <input type="file" name="avatar" accept=".jpg" multiple>
+                </div>
+                <div class="register__main__section__div--password">
+                    <input type="password" placeholder="Contraseña" minlength="2">
+                </div>
+                <div class="register__main__section__div--repeatPassword">
+                    <input type="password" placeholder="Confirmar contraseña" minlength="2">
+                </div>
+                <div class="register__main__section__div--botones">
+                    <div class="register__main__section__div--botonEnviar">
+                        <a href="/"><input type="button" value="Enviar"></a>
+                    </div>
+                    <div class="register__main__section__div--botonBorrar">
+                        <a href="/"><input type="reset" value="Borrar"></a>
+                    </div>
+                </div>
+                <div class="register__main__section__div--login">
+                    <small>¿Estás registrado? <a href="/login">Ingresá</a></small>
+                </div>
+            </form>
+        </section>
     </main>
+
     <footer class="footer">
         <section class="footer__section">
             <article class="footer__section__article">

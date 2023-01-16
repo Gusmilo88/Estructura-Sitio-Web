@@ -11,6 +11,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         rel="stylesheet" />
         <script src="https://kit.fontawesome.com/3888ffbbfa.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="images/favicon.svg">
         <title>Mercado Liebre / Login</title>
     </head>
 <body>
@@ -39,8 +40,8 @@
                 <li><a href="">Ayuda</a></li>
             </ul>
             <ul class="home__header__nav--user">
-                <li><a href="">Creá tu cuenta </a><i class="fa-solid fa-right-to-bracket"></i></li>
-                <li><a href="">Ingresá </a><i class="fa-regular fa-id-card"></i></li>
+                <li><a href="/register">Creá tu cuenta </a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="/login">Ingresá </a><i class="fa-regular fa-id-card"></i></li>
                 <li><a href="">Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
             </ul>
         </nav>
@@ -52,14 +53,17 @@
         <section class="login__main__section">
             <article class="login__main__section__article">
                 <form action="">
-                    <div class="form__box">
-                        <input type="text" placeholder="Nombre de usuario" name="name" id="name">
+                    <div class="login__main__section__article__form--box">
+                        <input type="text" placeholder="Nombre de usuario" name="name" id="name" minlength="5" required>
                     </div>
-                    <div class="form__box">
-                        <input type="password" placeholder="Elegí tu contraseña" name="password" id="password">
+                    <div class="login__main__section__article__form--box">
+                        <input type="password" placeholder="Elegí tu contraseña" name="password" id="password" minlength="5">
                     </div>
-                    <div class="form__div--button">
-                        <input type="submit" value="Enviar">
+                    <div class="login__main__section__article__form--button">
+                        <a href="/"><input type="button" value="Enviar"></a>
+                    </div>
+                    <div class="login__main__section__article__form--registro">
+                        <small>¿No estás registrado? <a href="/register">Registrate</a></small>
                     </div>
                 </form>
             </article>
