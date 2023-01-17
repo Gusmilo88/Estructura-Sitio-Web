@@ -186,13 +186,67 @@
 /* tablet */
 @media (min-width: 361px){
     .login__main__section__article__form--button a{
-        width: 40%;
+        
     }
 }
 
 /* desktop */
 @media (min-width: 769px){
-    .login__main__section__article__form--button a{
-        width: 20%;
+    .register__main__section__div--box input{
+        width: 60vw;
+    }
+
+    .register__main__section__div--fecha{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register__main__section__div--fecha input{
+        
+        width: 60vw;
+    }
+
+    .register__main__section__div--provincia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register__main__section__div--provincia select{
+        width: 60vw;
+    }
+
+    .register__main__section__div--domicilio input{
+        width: 60vw;
+    }
+
+    .register__main__section__div--foto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register__main__section__div--password input{
+        width: 60vw;
+    }
+
+    .register__main__section__div--repeatPassword input{
+        width: 60vw;
+    }
+
+    .register__main__section__div--botonEnviar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .register__main__section__div--botonEnviar input{
+        width: 20vw;
+    }
+
+    .register__main__section__div--botonBorrar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .register__main__section__div--botonBorrar input{
+        width: 20vw;
     }
 }

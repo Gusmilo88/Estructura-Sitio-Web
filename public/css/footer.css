@@ -20,3 +20,25 @@
 @media (min-width: 361px) {
 
 }
+
+/* desktop */
+@media (min-width: 769px){
+    .footer__section{
+        display: flex;
+        align-content: center;
+    }
+
+    .footer__section i:hover{
+        color: #0022AA;
+    }
+
+    .footer__section__article--pie{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .footer__section__article--pie p{
+        flex-direction: column-reverse;
+    }
+}
+
